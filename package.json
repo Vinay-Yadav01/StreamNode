@@ -1,0 +1,40 @@
+{
+  "name": "streamnode",
+  "version": "1.0.0",
+  "description": "a robust backend service for managing and streaming video content, powered by a database-driven api. this application is designed to fetch, organize, and serve video data efficiently, making it ideal for media applications, streaming platforms, or content delivery services. built with scalability and performance in mind, it provides endpoints for retrieving video metadata, handling user interactions, and managing media content. perfect for developers looking to integrate video functionality into their apps with a ready-to-use backend solution.",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon -r dotenv/config --experimental-json-modules src/index.js"
+  },
+  "keywords": [
+    "node",
+    "express",
+    "mongoose",
+    "cloudinary",
+    "jwt",
+    "bcrypt",
+    "multer",
+    "cookie-parser",
+    "cors"
+  ],
+  "author": "Vinay Yadav",
+  "license": "ISC",
+  "devDependencies": {
+    "nodemon": "^3.0.1",
+    "prettier": "^3.0.3"
+  },
+  "dependencies": {
+    "bcrypt": "^5.1.1",
+    "cloudinary": "^1.41.0",
+    "cookie-parser": "^1.4.6",
+    "cors": "^2.8.5",
+    "dotenv": "^16.3.1",
+    "express": "^4.18.2",
+    "jsonwebtoken": "^9.0.2",
+    "mongodb": "^6.10.0",
+    "mongoose": "^8.0.0",
+    "mongoose-aggregate-paginate-v2": "^1.0.6",
+    "multer": "^1.4.5-lts.1"
+  }
+}
